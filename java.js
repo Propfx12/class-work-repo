@@ -10,9 +10,9 @@ function printPyramid(rows) {
   printPyramid(5);
 
 //   Answer Two
-let character;
-let character = "Hello";
-let character = 'Hello';
+// let character;
+// let character = "Hello";
+// let character = 'Hello';
 
 // Answer 3
 // JavaScript describes function as a first class citizen, meaning they can me Assigned to a variable Passed to other Function and Return from other function
@@ -40,3 +40,14 @@ function applyOperation(operation, num) {
 
   // Using the higher-order function
 console.log(applyOperation(square, 5)); // Output: 25
+
+
+
+//  HERE IS TH SECOND ASSIGNMENT SIR. 
+
+function sumNumbers(...numbers) {
+  return numbers.reduce((sum, num) => sum + num, 0);
+}
+
+// console outputs 
+console.log(sumNumbers(1, 2, 3, 4, 5)); // Output: 15
